@@ -7,11 +7,11 @@ function dice() {
     }
 
     if (pl1 > pl2) {
-        document.querySelector("h1").textContent = "Player 1 wins over Player 2";
+        document.querySelector("h1").textContent = "Player 1 Wins";
     } else if (pl1 < pl2) {
-        document.querySelector("h1").textContent = "Player 2 wins over Player 1";
+        document.querySelector("h1").textContent = "Player 2 Wins!";
     } else if (pl1 === pl2) {
-        document.querySelector("h1").textContent = "Player 1 and Player 2 tie";
+        document.querySelector("h1").textContent = "Draw!";
     }
 
     // Dice One
