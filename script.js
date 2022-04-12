@@ -7,7 +7,7 @@ function dice() {
     }
 
     if (pl1 > pl2) {
-        document.querySelector("h1").textContent = "🚩Player 1 Wins";
+        document.querySelector("h1").textContent = "🚩Player 1 Wins!";
     } else if (pl1 < pl2) {
         document.querySelector("h1").textContent = "Player 2 Wins!🚩";
     } else if (pl1 === pl2) {
